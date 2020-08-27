@@ -7,7 +7,7 @@ def SomeExperiment(val1):
 		return np.round(result, 2)
 	text = ''
 	for i in range(10):
-		print('Результат ' + str(i) + ' измерения: ' + str(func(val1)))
+		print('Результат ' + str(i) + ' измерения: ', func(val1))
 	return 
 
 
